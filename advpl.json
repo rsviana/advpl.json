@@ -1,0 +1,68 @@
+{
+	// By: Rodrigo Viana - rsviana@gmail.com 
+
+	"Create includes" :{
+		"prefix": "include",
+		"body": [
+			"#include 'protheus.ch'",
+			"#include 'parmtype.ch'"
+		],
+		"description": "Adds the main includes"
+	},
+
+	"Create Variavel Local" : {
+		"prefix": "Local",
+		"body": "Local xYourVar := ",
+		"description": "Create variable Local"
+	},
+
+	"Create Variavel Private" : {
+		"prefix": "Private",
+		"body": "Private xYourVar := ",
+		"description": "Create variable Private"
+	},
+	"Create Variavel Public" : {
+		"prefix": "Public",
+		"body": "Public xYourVar := ",
+		"description": "Create variable Public"
+	},
+	"Create Alerts" :{
+		"prefix": "Alert",
+		"body": [
+			"Alert()",
+		],
+		"description": "Create Alerts"
+	},
+
+	"Create User Function" :{
+		"prefix": "User",
+		"body": [
+			"Alert()",
+		],
+		"description": "Create Alerts"
+	},
+
+	"Create Scope" :{
+		"prefix": "scope",
+		"body": [
+			"#include 'protheus.ch'",
+			"#include 'parmtype.ch'",
+			"/*",
+			"",
+			"		@Author: Your name" ,
+			"		@E-mail: ",
+			"		@Date:",
+			"		@Company: Your Company" ,
+			"		@Description: ",
+			"",
+			"*/",
+			"",
+			"",
+			"User Function NameFunc()",
+			"",
+			"",
+			"Return",
+		],
+		"description": "Create scope project"
+	}
+}
