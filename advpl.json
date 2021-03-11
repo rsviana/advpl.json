@@ -60,6 +60,7 @@
 			"",
 			"User Function NameFunc()",
 			"",
+			"Local xYourVar := ",
 			"",
 			"Return",
 		],
