@@ -28,17 +28,31 @@
 	},
 	"Create Alerts" :{
 		"prefix": "Alert",
-		"body": 
+		"body": [
 			"Alert()",
+		],
 		"description": "Create Alerts"
 	},
 
-	
+	"Create User Function" :{
+		"prefix": "User",
+		"body": [
+			"Alert()",
+		],
+		"description": "Create Alerts"
+	},
+
+	"Create FWInputBox":{
+		"prefix": "FW",
+		"body": "FWInputBox()",
+		"description": "Create FWInputBox()"
+	},
 	"Create MsgAlert()":{
 		"prefix": "Msg",
 		"body": "MsgAlert('','')",
 		"description": "Create function MsgAlert"
 	},
+
 
 	"Create Scope" :{
 		"prefix": "scope",
@@ -54,7 +68,6 @@
 			"@Description: ",
 			"",
 			"*/",
-			"",
 			"",
 			"User Function NameFunc()",
 			"",
