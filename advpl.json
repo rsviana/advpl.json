@@ -28,18 +28,16 @@
 	},
 	"Create Alerts" :{
 		"prefix": "Alert",
-		"body": [
+		"body": 
 			"Alert()",
-		],
 		"description": "Create Alerts"
 	},
 
-	"Create User Function" :{
-		"prefix": "User",
-		"body": [
-			"Alert()",
-		],
-		"description": "Create Alerts"
+	
+	"Create MsgAlert()":{
+		"prefix": "Msg",
+		"body": "MsgAlert('','')",
+		"description": "Create function MsgAlert"
 	},
 
 	"Create Scope" :{
@@ -49,11 +47,11 @@
 			"#include 'parmtype.ch'",
 			"/*",
 			"",
-			"		@Author: Your name" ,
-			"		@E-mail: ",
-			"		@Date:",
-			"		@Company: Your Company" ,
-			"		@Description: ",
+			"@Author: Your name" ,
+			"@E-mail: ",
+			"@Date:",
+			"@Company: Your Company" ,
+			"@Description: ",
 			"",
 			"*/",
 			"",
