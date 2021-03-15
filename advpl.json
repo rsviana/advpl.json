@@ -53,6 +53,51 @@
 		"description": "Create function MsgAlert"
 	},
 
+	
+	"Create RecLock":{
+		"prefix": "RecLock",
+		"body": "RecLock('  ',.F.)",
+		"description": "RecLock"
+	},
+
+
+	"Create DBSeec":{
+		"prefix": "DbSeek",
+		"body": "DbSeek(FWxFilial('  ')",
+		"description": "DbSeek"
+	},
+
+	"Create functions GetArea":{
+		"prefix": "GetArea",
+		"body": "->(GetArea())",
+		"description": "GetArea"
+	},
+	"Create functions DbSelectArea":{
+		"prefix": "DbSelectArea",
+		"body": "DbSelectArea(' ')",
+		"description": "dbSelectArea"
+	},
+	
+	"Create functions DbSetOrder":{
+		"prefix": "DbSetOrder",
+		"body": "->(DbSetOrder( ))",
+		"description": "DbSetOrder"
+	},
+	"Create functions DbGotop":{
+		"prefix": "DbGotop",
+		"body": "->(DbGoTop())",
+		"description": "DbGoTop"
+	},
+
+	"Create Begin Transaction":{
+		"prefix":"Begin",
+		"body": [
+			"Begin Transaction",
+			"",
+			"End Transaction"
+		],
+		"description":"Creating Begin Transaction"	
+	},
 
 	"Create Scope" :{
 		"prefix": "scope",
