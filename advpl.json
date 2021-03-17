@@ -37,12 +37,12 @@
 	"Create User Function" :{
 		"prefix": "User",
 		"body": [
-			"User Function YourUser",
+			"User Function YourUserFunction()",
 			"Local xYourvar :=",
 			"",
 			"Return",
 		],
-		"description": "Create Alerts"
+		"description": "Create UserFunction"
 	},
 
 	"Create FWInputBox":{
